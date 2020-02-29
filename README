@@ -1,0 +1,41 @@
+Feladat
+
+Válasszon egy backtrackinggel megoldható feladatot. A feladat különböz˝o méreteire hasonlítsa össze a következ˝o
+algoritmusok teljesítményét:
+
+  1. nyers backtracking
+  2. backtracking + MVR + forward checking
+  3. backtracking + MVR + AC-3
+Mindhárom esetben az els˝o megoldás megtalálásáig fusson a program.
+
+
+Kritériumok
+
+  1. A program a parancssor argumentumain keresztül vegye át a feladat méretét (n) és a használt megoldási
+módszert (1, 2 vagy 3).
+  2. A program a standard kimenetre írja ki a backtrackingben történt értékadások számát.
+Feltöltend˝o
+
+  1. README.md — a feladat leírását és az eredményeket tartalmazó dokumentum.
+  2. Forráskód. Bármilyen programozási nyelv használható.
+  
+  Megoldás:
+    -Kombinatorika feladat
+    -Meghatározza egy számsorozat (1->n) meghatározott számjegyű kombinációit.
+    
+    
+ A program lefuttatása után, megkell adni egy n értéket, amely a számsorozat elemeit adja meg és 
+ egy m értéket amely a számjegyek számát adja meg.
+ 
+ Pl. Kombinációja a 7-nek 4-el.
+ 
+ Majd ezt követően, megkell adni az opciót, hogy melyik megoldási módszerrel szeretnénk lefuttatni. 
+ Tudunk választani az alábbi három közül:
+ 
+  1. nyers backtracking
+  2. backtracking + MVR + forward checking
+  3. backtracking + MVR + AC-3
+ 
+ Az első meghívására az eredmény, hogyha a legelső megoldásig megyünk akkor az értékadások száma: 10, és az első megoldás az 1234.
+ A második meghívására az eredmény,  hogyha a legelső megoldásig megyünk akkor az értékadások száma: 15, és az első megoldás az 1234.
+    
